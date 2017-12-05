@@ -1,20 +1,19 @@
-# Hello-World-React
-My first react program, based on the lessons from the book Fullstack React
+### Running the app
 
-1)Installing Nodejs on my ubuntu (16.04 LTS):
+1. Ensure you have `npm` installed.
 
-  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 68576280 
-  
-  sudo apt-add-repository "deb https://deb.nodesource.com/node_7.x $(lsb_release -sc) main" 
-  
-  sudo apt-get update 
-  
-  sudo apt-get install nodejs  
-  
-2)Running the app
+Follow the instructions for your platform [here](https://github.com/npm/npm).
 
-  Inside the app's dir do:
-  
-  npm install
-  
-  npm start
+2. Install `http-server`
+
+````
+npm install
+````
+
+3. Boot the HTTP server
+
+````
+npm run server
+````
+
+The server is now running at [localhost:3000](localhost:3000)
